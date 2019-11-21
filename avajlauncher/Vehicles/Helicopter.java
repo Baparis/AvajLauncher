@@ -23,7 +23,7 @@ public class Helicopter extends Aircraft implements Flyable {
     }
 
     public void updateConditions() {
-        System.out.print("Helicopter#)" + _name + "(" + _id + "): ");
+        System.out.print("Helicopter#" + _name + "(" + _id + "): ");
         switch (_weatherTower.getWeather(_coordinates)) {
             case "Sun":
                 System.out.print("VRRRRR");

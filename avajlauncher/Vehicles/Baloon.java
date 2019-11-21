@@ -21,7 +21,7 @@ public class Baloon extends Aircraft implements Flyable {
     }
 
     public void updateConditions() {
-        System.out.print("Baloon#)" + _name + "(" + _id + "): ");
+        System.out.print("Baloon#" + _name + "(" + _id + "): ");
         switch (_weatherTower.getWeather(_coordinates)) {
             case "Sun":
                 System.out.print("Let's zoom in the sunny day !");

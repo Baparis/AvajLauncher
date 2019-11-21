@@ -1,0 +1,4 @@
+-Xlint
+-d
+/tmp/vim-syntastic-javac
+"/Users/baparis/Desktop/avajlauncher 2/AvajLauncher/avajlauncher/Vehicles/JetPlane.java"

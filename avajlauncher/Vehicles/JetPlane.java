@@ -23,7 +23,7 @@ public class JetPlane extends Aircraft implements Flyable {
     }
 
     public void updateConditions() {
-        System.out.print("JetPlane#)" + _name + "(" + _id + "): ");
+        System.out.print("JetPlane#" + _name + "(" + _id + "): ");
         switch (_weatherTower.getWeather(_coordinates)) {
             case "Sun":
                 System.out.print("Let's enjoy the sunny day !");
